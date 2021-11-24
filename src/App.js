@@ -1,9 +1,17 @@
 import './App.css';
+import { BrowserRouter, Router, Route, Switch, Redirect } from 'react-router-dom';
+import WelcomePage from './Components/WelcomePage.js';
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <>
+    <Router>
+      <Switch>
+          <Route path={"/"} exact component={WelcomePage}/>
+          <Redirect to={"/"} />
+        </Switch>
+    </Router>
+    </>
   );
 }
 
