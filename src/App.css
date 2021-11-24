@@ -1,6 +1,10 @@
 #welcome{
-  background-color: blue;
+  background-color: rgb(28, 28, 41);
   border: 3px solid orangered;
+  font-size: 2em;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: burlywood;
 }
 
 #returnButton {
@@ -33,4 +37,55 @@
   color: darkblue ;
   background-color: pink;
   border: 2px solid yellow;
+}
+
+.navigationBar {
+  width: 90px;
+  background-color: #303030;
+}
+
+.navigationBar a {
+  display: block;
+  text-align: center;
+  padding: 15px;
+  transition: all 0.5s ease;
+  color: white;
+  font-size: 18px;
+  background-color: #fcba03;
+}
+
+.navigationBar a:hover {
+  background-color: #006346;
+}
+
+.navigationBar2 {
+  width: 90px;
+  background-color: #303030;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.navigationBar2 a {
+  display: block;
+  text-align: center;
+  padding: 15px;
+  transition: all 0.5s ease;
+  color: white;
+  font-size: 18px;
+  background-color: #777b7d;
+}
+
+.navigationBar2 a:hover {
+  background-color: #006346;
+}
+
+.active {
+  background-color: #008c62;
+}
+
+
+#mainPageCenter{
+  background-color: darkgreen;
+  height:auto;
+  border: 5px solid burlywood;
 }

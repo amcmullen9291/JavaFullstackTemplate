@@ -10,6 +10,7 @@ import WelcomePage from './Components/WelcomePage.js';
 import NotFound from './Components/NotFound';
 import Methods from './Components/Methods';
 import OtherStuff from './Components/OtherStuff';
+import Additions from './Components/Additions';
 
 
 function App() {
@@ -18,9 +19,9 @@ function App() {
     <Router>
       <Switch>
           <Route path={"/"} exact component={WelcomePage}/>
-          <Route path={"/react/at-a-glance"} exact component={WelcomePage}/>
+          <Route path={"/react/at-a-glance"} exact component={OtherStuff}/>
           <Route path={"/react/functions"} exact component={Methods}/>
-          <Route path={"/react/etc"} exact component={OtherStuff}/>
+          <Route path={"/react/next"} exact component={Additions}/>
           <Route path={"/NotFound"} exact component={NotFound}/>
           <Redirect to={"/NotFound"} />
         </Switch>
