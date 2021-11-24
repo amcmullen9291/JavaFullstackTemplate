@@ -1,4 +1,36 @@
-Body{
+#welcome{
   background-color: blue;
   border: 3px solid orangered;
+}
+
+#returnButton {
+  top: 0;
+  left: 0;  
+}
+
+.four0four{
+  font-size: 38px;
+}
+
+#four0fourpage{
+  background-color: lightblue;
+}
+
+#see{
+  font-size: 2em;
+  color:brown;
+}
+
+#errorBody{
+  position:absolute;
+  left:0;
+  right:0;
+  background-color: palevioletred;
+}
+
+#returnHomeButton{
+  font-size: 2em;
+  color: darkblue ;
+  background-color: pink;
+  border: 2px solid yellow;
 }
