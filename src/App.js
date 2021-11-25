@@ -8,9 +8,12 @@ import {
 } from "react-router-dom";
 import WelcomePage from './Components/WelcomePage.js';
 import NotFound from './Components/NotFound';
-import Methods from './Components/Methods';
-import OtherStuff from './Components/OtherStuff';
-import Additions from './Components/Additions';
+import About from './Components/About';
+import functionalComponents from './Components/FunctionalComponents';
+import classComponents from './Components/ClassComponents';
+import Redux from './Components/Redux';
+import ActionsReducers from './Components/ActionsReducers';
+import ComponentsState from './Components/ComponentState';
 
 
 function App() {
@@ -19,9 +22,14 @@ function App() {
     <Router>
       <Switch>
           <Route path={"/"} exact component={WelcomePage}/>
-          <Route path={"/react/at-a-glance"} exact component={OtherStuff}/>
-          <Route path={"/react/functions"} exact component={Methods}/>
-          <Route path={"/react/next"} exact component={Additions}/>
+          <Route path={"/react/at-a-glance"} exact component={About}/>
+          <Route path={"/react/functional-components"} exact component={functionalComponents}/>
+          <Route path={"/react/class-components"} exact component={classComponents}/>
+
+          <Route path={"/react/component-state"} exact component={ComponentsState}/>
+          <Route path={"/react/reducers"} exact component={ActionsReducers}/>
+          <Route path={"/react/storing-state"} exact component={Redux}/>
+
           <Route path={"/NotFound"} exact component={NotFound}/>
           <Redirect to={"/NotFound"} />
         </Switch>

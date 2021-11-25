@@ -40,11 +40,12 @@
 }
 
 .navigationBar {
-  width: 90px;
+  width: 20%;
   background-color: #303030;
 }
 
 .navigationBar a {
+  width:auto;
   display: block;
   text-align: center;
   padding: 15px;
@@ -59,7 +60,7 @@
 }
 
 .navigationBar2 {
-  width: 90px;
+  width: 20%;
   background-color: #303030;
   margin-left: auto;
   margin-right: 0;
@@ -86,6 +87,24 @@
 
 #mainPageCenter{
   background-color: darkgreen;
-  height:auto;
+  /* height:auto; */
   border: 5px solid burlywood;
+}
+
+#welcomeFooter{
+  height: 3em;
+  background-color: rgb(66, 50, 33);
+  font-size: 3em;
+  
+}
+
+footer{
+  position:absolute;
+  height:50px;
+  background-color:rgb(100, 80, 80);
+  bottom:0;
+  left:0;
+  width:90%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
