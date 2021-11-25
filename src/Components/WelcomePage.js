@@ -5,9 +5,10 @@ function WelcomePage() {
   const copyright = "\u00a9";
   return (
     <>
-    <div>
+    <div id="mainBorder">
       <div id="mainPageCenter">
         <center><h1 id="welcome">Welcome to React</h1></center>
+        {/* <img  title="heartica_logo" src="redux-logo-landscape.png" alt="logo" width="150" height="50" /> */}
       {/* </div> */}
         <div class="navigationBar">
           <center>
@@ -29,9 +30,10 @@ function WelcomePage() {
         </div>
     </div>
     </div>
-    <div id="welcomeFooter"><center><i>Some stuff here</i></center></div>
+    <div id="welcomeFooter"><center><i>Centralized State Management</i></center></div>
     <footer>
-      <center> {copyright} Pyramid Consulting Anthony McMullen. 2021</center>
+      <center>Pyramid Consulting </center>
+      <center> {copyright} Anthony McMullen. 2021</center>
     </footer>
     </>
   )

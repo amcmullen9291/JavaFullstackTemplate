@@ -42,6 +42,7 @@
 .navigationBar {
   width: 20%;
   background-color: #303030;
+  opacity: 40%;
 }
 
 .navigationBar a {
@@ -50,7 +51,7 @@
   text-align: center;
   padding: 15px;
   transition: all 0.5s ease;
-  color: white;
+  color: black;
   font-size: 18px;
   background-color: #fcba03;
 }
@@ -64,6 +65,7 @@
   background-color: #303030;
   margin-left: auto;
   margin-right: 0;
+  opacity: 40%;
 }
 
 .navigationBar2 a {
@@ -86,10 +88,12 @@
 
 
 #mainPageCenter{
-  background-color: darkgreen;
-  /* height:auto; */
+  /* background-color: darkgreen; */
+  /* background-image: "Images\redux-logo-landscape.png" alt="logo"; */
+  background: url('redux-logo-landscape.png');
   border: 5px solid burlywood;
 }
+
 
 #welcomeFooter{
   height: 3em;
@@ -108,3 +112,7 @@ footer{
   margin-left: 5%;
   margin-right: 5%;
 }
+
+/* #mainBorder{ */
+  /* border: 5px solid gray; */
+/* } */
