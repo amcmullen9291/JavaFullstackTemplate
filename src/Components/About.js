@@ -17,7 +17,7 @@ export default function About() {
             button.innerText = "(Thank you, that's better)"
             button.className = "hidden";
             headerText2.style.visibility = "hidden";
-            Swal.fire('Nice.', "CSS made the header move and parts of it disapper. JavaScript changed the words.")
+            Swal.fire('Nice.', "CSS made the header move (and part of it disapper) and JavaScript changed the words. All from an onClick React function")
     }
 
     return (
