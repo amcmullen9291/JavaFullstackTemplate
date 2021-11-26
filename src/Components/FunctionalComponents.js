@@ -55,7 +55,7 @@ function headerCode(e){
           <main class="mainSection">
           <p id="gibberishHeading" onMouseOver={orderedListCode}> We'll use <em><strong>Lorem Ipsum</strong></em> in the Main section.</p>
           <ul>
-              <li id="mainSection">This is (almost) the exact same page As the introduction page. But, look how little code is in the the return statement! In any of the other components you can import this file's constants and reuse the JSX without re writing code!  Hover over each element to see the code that created it.</li>
+              <li id="mainSection">This is (almost) the exact same page As the introduction page. But, look how little code is in the the return statement! You can import this file's constants into any other component in this app and reuse the JSX without re writing code!  Hover over each element to see the code that created it.</li>
               <ol>
                   <li >Lorem Ipsum is <br/> gibberish. But,</li>
                   <br/>

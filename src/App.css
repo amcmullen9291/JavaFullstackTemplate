@@ -210,3 +210,24 @@ ul ol ul li{
 #headerText3{
  width: 35%;
 }
+
+.statePageCounter{
+  text-align: center;
+  font-size: 2em;
+  color: black;
+  background-color: yellow;
+  border: 3px solid blue;
+}
+
+.stateButtons{
+  background-color: blue;
+  color:white;
+}
+
+#statePageBorder{
+  background-color: saddlebrown;
+}
+
+#statePageMainBackground{
+  background-color: aquamarine;
+}
