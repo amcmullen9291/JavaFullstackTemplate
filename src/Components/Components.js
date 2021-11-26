@@ -91,7 +91,7 @@ function Components() {
           <br/>
           <button onClick={(e) => {ShowData(e, '6')}}><a href="#factsArea">useEffect</a></button>
           <br/>
-          <button onClick={(e) => {ShowData(e, '7')}}><a href="#factsArea">useDispatch</a></button>
+          <button onClick={(e) => {ShowData(e, '7')} } id="bottomButton"><a href="#factsArea">useDispatch</a></button>
           </center>
         </div>
     </div>

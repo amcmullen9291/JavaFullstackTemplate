@@ -8,8 +8,6 @@ function WelcomePage() {
     <div id="mainBorder">
       <div id="mainPageCenter">
         <center><h1 id="welcome">Welcome to React</h1></center>
-        {/* <img  title="heartica_logo" src="redux-logo-landscape.png" alt="logo" width="150" height="50" /> */}
-      {/* </div> */}
         <div class="navigationBar">
           <center>
           <a href="react/at-a-glance">The Frontend</a>
@@ -30,7 +28,7 @@ function WelcomePage() {
         </div>
     </div>
     </div>
-    <div id="welcomeFooter"><center><i>Centralized State Management</i></center></div>
+    <div id="welcomeFooter"><center><i>Local and Centralized State Management</i></center></div>
     <footer>
       <center>Pyramid Consulting </center>
       <center> {copyright} Anthony McMullen. 2021</center>

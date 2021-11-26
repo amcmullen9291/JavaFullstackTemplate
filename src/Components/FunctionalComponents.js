@@ -107,7 +107,7 @@ const footer = (
   <>
         <footer>
           <br/>
-      <center><a href={"/"}><button id="homeButton">return home</button></a></center>
+      <center><a href={"/"}><button id="homeButton">return home</button></a><a href="/react/reuseable-code/origin"><button id="continueButton">Click to see an example of reuseable Code</button></a></center>
       </footer>
 
   </>

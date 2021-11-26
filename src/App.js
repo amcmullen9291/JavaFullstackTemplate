@@ -14,6 +14,8 @@ import Components from './Components/Components';
 import Redux from './Components/Redux';
 import ActionsReducers from './Components/ActionsReducers';
 import ComponentsState from './Components/ComponentState';
+import ReuseableCode from './Components/ReuseableCode';
+import ReuseableExample from './Components/ReuseableExample';
 
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
           <Route path={"/"} exact component={WelcomePage}/>
           <Route path={"/react/at-a-glance"} exact component={About}/>
           <Route path={"/react/reuseable-code"} exact component={functionalComponents}/>
+          <Route path={"/react/reuseable-code/origin"} exact component={ReuseableCode}/>
+          <Route path={"/react/reuseable-code/example"} exact component={ReuseableExample}/>
           <Route path={"/react/components"} exact component={Components}/>
 
           <Route path={"/react/component-state"} exact component={ComponentsState}/>
