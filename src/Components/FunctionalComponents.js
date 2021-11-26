@@ -77,8 +77,8 @@ function headerCode(e){
   const header = (
     <>
     <header id ="header" >
-      <h1 id="headerText1" onMouseOver={hOneCode}>This h1 element is in the header.</h1>
-      <p id="headerText2">(but wouldn't it look nicer in the middle?)</p>
+      <h1 id="headerText3" onMouseOver={hOneCode}>This h1 element is in the header.</h1>
+      <p id="headerText3">(but wouldn't it look nicer in the middle?)</p>
       <button id="buttonToCenter" onMouseOver={buttonCode} onClick={centerHeader}>Click to move it</button>
   </header>
 
