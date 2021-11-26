@@ -12,7 +12,7 @@ function WelcomePage() {
       {/* </div> */}
         <div class="navigationBar">
           <center>
-          <a href="react/at-a-glance">React</a>
+          <a href="react/at-a-glance">The Frontend</a>
           <br/>
           <a href="react/functional-components">Functional Components</a>
           <br/>
