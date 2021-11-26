@@ -7,6 +7,25 @@
   color: burlywood;
 }
 
+#welcome2{
+  background-color: rgb(28, 28, 41);
+  border: 3px solid orangered;
+  font-size: 2em;
+  margin-left: 35%;
+  margin-right: 35%;
+  color: burlywood;
+}
+
+
+#history{
+  background-color: lightblue;
+  opacity: 1;
+  height: 17em;
+  justify-content: center;
+  margin-top: 2em;
+  border: 3px dashed white;
+}
+
 #returnButton {
   top: 0;
   left: 0;  
@@ -93,6 +112,12 @@
   border: 5px solid burlywood;
 }
 
+#mainPageCenter2{
+  background-color: #f54260;
+  border: 5px solid burlywood;
+}
+
+
 
 #welcomeFooter{
   height: 3em;
@@ -166,4 +191,18 @@ ul ol ul li{
 
 #codeReview{
   margin-left: 2%;
+}
+
+.comparedTop{
+  color: white;
+}
+
+#factsArea{
+  border: 2px solid lightgoldenrodyellow;
+  margin-left: 25%;
+  margin-right: 5%;
+  position: fixed;
+  visibility: hidden;
+  font-size: 3em;
+  margin-top: 2%;
 }

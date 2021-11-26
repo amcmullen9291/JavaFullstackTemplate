@@ -14,39 +14,39 @@ function Components() {
 
   const dispatch = useDispatch();
 
-  // function ShowData(e, attribute){
-  //   e.preventDefault();
-  //   const City = { id: "1", nameOf: "Westby", population: "VELKOMMEN! The City of Westby was once considered a Village incorporated in 1896 but later became a City in 1920 and is now made up of approximately 2,472 residents.", county: "Westby is located in Vernon County which is in south western Wisconsin.", meaning: "The name 'Westby' is a Norwegian name and literally translates to 'Western city'.", incorporated: "Westby was incorporated in 1896. The Norwegian flavor of the town is captured in the name of a store, Uff Da Shoppe.", zipcode: "Westby's zipcode is 54667.", areacode: "The city of Westby is located in the 608 area code.", festivals: "Westby's most popular event is the Syttende Mai festival, an annual three-day event held in mid-May. The festival stems from Westby's Norwegian roots, Syttende Mai being a Norwegian holiday ('Syttende Mai' translates to 'Seventeenth of May') celebrating Norway's independence and the signing of the Norwegian Constitution.", demographics: "The median age in the city was 41.5 years. 24.8% of residents were under the age of 18; 5.9% were between the ages of 18 and 24; 24.1% were from 25 to 44; 24.4% were from 45 to 64; and 20.8% were 65 years of age or older. The gender makeup of the city was 48.1% male and 51.9% female.", economy: "With seven cooperatives still functioning, Westby has been referred to as 'Co-op City'. Some of the more prominent co-ops are the Westby Cooperative Creamery, Vernon Telephone Cooperative, Heartland Country Coop, Westby Coop Credit Union, and Vernon Electric Cooperative."}
-  //   let summary = document.querySelector("#history");
-  //   summary.innerHTML = "";
-  //   switch (attribute)
-  //       {
-  //       case "demographics": summary.innerHTML =  City.demographics;
-  //       break;
-  //       case "population": summary.innerHTML =  City.population + City.meaning;
-  //       break;
-  //       case "area": summary.innerHTML =  City.county;
-  //       break;
-  //       case "meaning": summary.innerHTML =  City.meaning;
-  //       break;
-  //       case "incorporated": summary.innerHTML =  City.incorporated;
-  //       break;
-  //       case "county": summary.innerHTML =  City.county + City.areacode  + City.zipcode;
-  //       break;
-  //       case "festivals": summary.innerHTML =  City.festivals;
-  //       break;
-  //       case "economy": summary.innerHTML =  City.economy;
-  //       break;
+  function ShowData(e, attribute){
+    e.preventDefault();
+    let summary = document.querySelector("#factsArea");
+    summary.style.visibility = "visible";
+    summary.innerHTML = "";
+    switch (attribute)
+        {
+        case "1": summary.innerHTML =  "Switch Statement #1,Switch Statement #1,Switch Statement #1,Switch Statement #1,Switch Statement #1,Switch Statement #1,Switch Statement #1,Switch Statement #1,Switch Statement #1";
+        break;
+        case "2": summary.innerHTML =  "Switch Statement #2";
+        break;
+        case "3": summary.innerHTML =  "Switch Statement #3";
+        break;
+        case "4": summary.innerHTML =  "Switch Statement #4";
+        break;
+        case "5": summary.innerHTML =  "Switch Statement #5";
+        break;
+        case "6": summary.innerHTML =  "Switch Statement #6";
+        break;
+        case "7": summary.innerHTML =  "Switch Statement #7";
+        break;
+        case "8": summary.innerHTML =  "Switch Statement #8";
+        break;
 
 
-  //       default: 
-  //       alert('Default case');
-  //       }
-  // }
+        default: 
+        alert('Default case');
+        }
+  }
 
   const setFunctionalFacts = () => {
     dispatch(setFunctionalComponentFacts(funcComp));
-    console.log("Current Cities:", funcCompList)
+    console.log("Functional component facts:", funcCompList)
   };
   
   useEffect(() => {
@@ -55,7 +55,7 @@ function Components() {
 
   const setClassFacts = () => {
     dispatch(setClassComponentFacts(classComp));
-    console.log("Current Facts:", classCompList)
+    console.log("Class component facts:", classCompList)
   };
   
   useEffect(() => {
@@ -66,9 +66,38 @@ function Components() {
         <>
       <div>
           <center><h1 id="welcome">Class Components <br/> vs. Functional Components</h1></center>
-          <center>testing the router from the Class Components page</center>
       </div>
-      <center><a href={"/"}><button>return home</button></a></center>
+    <>
+    <div id="switchPageBorder">
+      <div id="mainPageCenter2">
+        <div class="navigationBar">
+        <center><div id="factsArea">Did this go to the center?</div></center>
+          <center>
+            <span class="comparedTop">Lifecycle Methods</span>
+          <button onClick={(e) => {ShowData(e, '1')}}><a href="#factsArea">Component Did Mount</a></button>
+          <br/>
+          <button onClick={(e) => {ShowData(e, '2')}}><a href="#factsArea">Component Should Update</a></button>
+          <br/>
+          <button onClick={(e) => {ShowData(e, '3')}}><a href="#factsArea">Component Did Update</a></button>
+          <br/>
+          <button onClick={(e) => {ShowData(e, '4')}}><a href="#factsArea">Component Did UnMount</a></button>
+          </center>
+        </div>
+        {/* <center><div id="factsArea">Did this go to the center?</div></center> */}
+        <div class="navigationBar">
+          <center>
+          <span class="comparedTop">React Hooks</span>
+          <button onClick={(e) => {ShowData(e, '5')}}><a href="#factsArea">useState / setState</a></button>
+          <br/>
+          <button onClick={(e) => {ShowData(e, '6')}}><a href="#factsArea">useEffect</a></button>
+          <br/>
+          <button onClick={(e) => {ShowData(e, '7')}}><a href="#factsArea">useDispatch</a></button>
+          </center>
+        </div>
+    </div>
+    </div>
+    <center><a href={"/"}><button>return home</button></a></center>
+    </>
       </>
     )
   }
