@@ -30,7 +30,7 @@ export default function functionalComponents() {
 function headerCode(e){
   e.preventDefault();
   Swal.fire("The Header's JSX",
-  "(center)(h1 id='welcome')Reuseable code(/h1)(/center)");
+  "const header = (center)(h1 id='welcome')Reuseable code(/h1)(/center)");
 }
 
 
@@ -46,7 +46,7 @@ function headerCode(e){
   function orderedListCode(e){
     e.preventDefault();
     Swal.fire("The Main Section's JSX",
-    "(ol)(li )Lorem Ipsum is (br/) gibberish. But,(/li)(br/)(li)It is rooted in a(br/)real language: Latin(/li)(br/)(li)It is just used to fill up space.(/li)(/ol)");
+    "const mainSection = (ol)(li )Lorem Ipsum is (br/) gibberish. But,(/li)(br/)(li)It is rooted in a(br/)real language: Latin(/li)(br/)(li)It is just used to fill up space.(/li)(/ol)");
   
   }
 
@@ -71,7 +71,7 @@ function headerCode(e){
 
   function hOneCode(e){
     e.preventDefault();
-    Swal.fire("H1 Header Code","(h1 id='headerText1')This h1 element is in the header.(/h1)(p id='headerText2')(but wouldn't it look nicer in the middle?)(/p)")
+    Swal.fire("H1 Header Code","const header = (h1 id='headerText1')This h1 element is in the header.(/h1)(p id='headerText2')(but wouldn't it look nicer in the middle?)(/p)")
 }
 
   const header = (

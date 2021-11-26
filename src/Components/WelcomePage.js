@@ -14,9 +14,9 @@ function WelcomePage() {
           <center>
           <a href="react/at-a-glance">The Frontend</a>
           <br/>
-          <a href="react/functional-components">Functional Components</a>
+          <a href="react/reuseable-code">Reuseable Code</a>
           <br/>
-          <a href="react/class-components">Class Components</a>
+          <a href="react/components">Class vs Functional</a>
           </center>
         </div>
 
