@@ -257,3 +257,11 @@ ul ol ul li{
   font-size: 2em;
 }
 
+#showCodeIntro{
+  font-size: 2em;
+}
+
+#bottomFooter2{
+  position: relative;
+  grid-area: footer;
+}

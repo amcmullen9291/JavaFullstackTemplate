@@ -41,6 +41,7 @@ const joke5 =(
   // @give both new files a frame. and show return on both 
   return (
     <>
+    <p id="showCodeIntro">This is the actual file.</p>
     <p id="showCode">
     <pre>{`
     import React from 'react'
@@ -113,7 +114,7 @@ const joke5 =(
     
     `}</pre>
     </p>
-    <footer id="bottomFooter">
+    <footer id="bottomFooter2">
             <br/>
             <center><a href={"/react/reuseable-code/example"}><button id="homeButton">See code reused</button></a></center> 
         </footer>
