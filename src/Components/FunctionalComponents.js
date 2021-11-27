@@ -88,16 +88,19 @@ function headerCode(e){
 const blahBlah = (
   <>
         <section >
-          <p id="meSection">return (<br/>
-            (div class='background')<br/>
-            (infoBanner) <br/>
-    (header) <br/>
-    (mainSection) <br/>
-    (blahBlah) <br/>
-    (footer)<br/>
-    (/div)<br/>
-          )
-          </p>
+          <div id="meSection">
+            <pre>{`
+        return (
+            <div className="showCodeArea">
+              {infoBanner}
+              {header}
+              {mainSection}
+              {blahBlah}
+              {footer}
+            </div>
+            )
+            `}</pre>
+          </div>
           <span id="mainSpan">Duh</span>
       </section>
   </>

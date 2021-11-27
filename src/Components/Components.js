@@ -87,7 +87,7 @@ function Components() {
         <div class="navigationBar">
           <center>
           <span class="comparedTop">React Hooks</span>
-          <button onClick={(e) => {ShowData(e, '5')}}><a href="#factsArea">useState / setState</a></button>
+          <button onClick={(e) => {ShowData(e, '5')}}><a href="#factsArea">useState/setState</a></button>
           <br/>
           <button onClick={(e) => {ShowData(e, '6')}}><a href="#factsArea">useEffect</a></button>
           <br/>

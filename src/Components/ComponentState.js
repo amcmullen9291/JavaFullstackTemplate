@@ -60,10 +60,19 @@ export default class ComponentState extends Component {
             </p>
       </center>
       </div>
-      <center>
-          <span>This area is for the setState explination</span>
-      </center>
+        <ol id="setStateList">
+          <span><center>setState()</center></span>
+          <li>setState() tells React that a component needs to be re-rendered.</li>
+          <li>An initial state is needed.</li>
+          <li>setState() is asynchronous.</li>
+          <li>setState can only be called from a Class component.</li>
+          <li>In most cases, setState will lead to a re-render.</li>
+          </ol>
+          <br/>
+          <center>
+          <span><br/>In functional components, the hooks useState(), useDispatch() and useEffect(). are used to change state.</span>
             <br/><br/><br/>
+            </center>
         </div>
         <footer>
             <br/>

@@ -4,11 +4,23 @@ import ReuseableCode from './ReuseableCode.js';
 export default function ReuseableExample() {
   return (
       <>
-    <div>
+    <p id="showCode">this is the return method in the file using reuseable code:
+    <pre>{`
+      return (
+      <>  
+      <div>
         <center>
-      <ReuseableCode/>
-      </center>
-    </div>
+            <ReuseableCode/>
+        </center>
+      </div>
+      <footer>
+      <br/>
+            <center><a href={"/"}><button>Return Home</button></a></center>
+      </footer>
+      </>
+      )
+`}</pre>
+</p>
     <footer>
         <br/>
         <center><a href={"/"}><button>Return Home</button></a></center>
