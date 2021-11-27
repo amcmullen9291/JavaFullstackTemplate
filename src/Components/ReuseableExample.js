@@ -7,10 +7,6 @@ export default function ReuseableExample() {
     <div>
         <center>
       <ReuseableCode/>
-      <ReuseableCode/>
-      <ReuseableCode/>
-      <ReuseableCode/>
-      <ReuseableCode/>
       </center>
     </div>
     <footer>
