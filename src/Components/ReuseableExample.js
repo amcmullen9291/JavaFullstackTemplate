@@ -23,7 +23,7 @@ export default function ReuseableExample() {
 </p>
     <footer>
         <br/>
-        <center><a href={"/"}><button>Return Home</button></a></center>
+        <center><a href={"/react/reuseable-code/origin"}> <button>look again </button></a><a href={"/"}><button>Return Home</button></a></center>
     </footer>
     </>
   )

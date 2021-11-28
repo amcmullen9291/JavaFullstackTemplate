@@ -106,7 +106,7 @@ const joke5 =(
     
         <footer>
           <br/>
-          <center><a href="/react/reuseable-code/example"><button id="homeButton">See code in action!</button></a></center>
+          <center><a href="#"><button>See code reused</button></a></center>
         </footer>
         </>
       )
