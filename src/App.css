@@ -283,3 +283,17 @@ ul ol ul li{
   font-size: 2em;
   color: #2512E7;
 }
+
+#actionArea{
+  border: 1em solid orange;
+  width:fit-content;
+  margin-left: 5%;
+  background-color: tan;
+}
+
+#reducerArea{
+  margin-left: 50%;
+  border: 1em solid maroon;
+  width:fit-content;
+  background-color: tan;
+}
