@@ -6,8 +6,8 @@ class Redux extends Component {
 	constructor() {
 		super();
 		this.state = {
-			name: '',
-            age: '',
+			name: 'Placeholder',
+            age: '35',
 		};
 	}
     
