@@ -265,3 +265,16 @@ ul ol ul li{
   position: relative;
   grid-area: footer;
 }
+
+#nameForm{
+ border:3px solid rgb(100, 80, 80);
+ width: 50%;
+}
+
+.formFields{
+  width:20px;
+}
+
+#formfieldsName{
+  width: 60px
+}

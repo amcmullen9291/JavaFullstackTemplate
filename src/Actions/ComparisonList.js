@@ -13,3 +13,10 @@ export const setClassComponentFacts = (ClassComponentFacts) => {
         payload: ClassComponentFacts
     }
 }
+
+export const setUserName = (userName) => {
+    return {
+        type: ActionTypes.SET_NAME,
+        payload: userName
+    }
+}

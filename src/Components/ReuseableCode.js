@@ -56,29 +56,29 @@ const joke5 =(
     
     const joke2 =(
       <>
-      <p id="question1"> Why did Yankee Doodle go to town?</p>
-      <p id="answer1"> Quit asking questions!</p>
+      <p id="question2"> Why did Yankee Doodle go to town?</p>
+      <p id="answer2"> Quit asking questions!</p>
       </>
     )
     
     const joke3 =(
       <>
-      <p id="question1"> Why did Yankee Doodle go to town?</p>
-      <p id="answer1"> Do I know you?</p>
+      <p id="question3"> Why did Yankee Doodle go to town?</p>
+      <p id="answer3"> Do I know you?</p>
       </>
     )
     
     const joke4 =(
       <>
-      <p id="question1"> Why did Yankee Doodle go to town?</p>
-      <p id="answer1"> Whats the number for 9-1-1?</p>
+      <p id="question4"> Why did Yankee Doodle go to town?</p>
+      <p id="answer4"> Whats the number for 9-1-1?</p>
       </>
     )
     
     const joke5 =(
       <>
-      <p id="question1"> Why did Yankee Doodle go to town?</p>
-      <p id="answer1"> I have pepper spray!</p>
+      <p id="question5"> Why did Yankee Doodle go to town?</p>
+      <p id="answer5"> I have pepper spray!</p>
       </>
     )
     
@@ -86,7 +86,7 @@ const joke5 =(
     
       return (
         <>
-        <p>This code was written line by line as constants and submitted to the return method.</p>
+        <p>This code was written as constants and submitted to the return method.</p>
         <br/>
         <div>
             {joke1}
