@@ -64,6 +64,7 @@ class Redux extends Component {
 			</div>
             </center>
             <footer>
+				<br/>
                 <center><a href={"/"}><button id="homeButton">return home</button></a></center>                 
             </footer>
             </div>

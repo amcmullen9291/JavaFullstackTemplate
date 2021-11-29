@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-// import { Link } from 'react-router-dom';
 import { connect, useDispatch } from 'react-redux';
 import { setFunctionalComponentFacts, setClassComponentFacts } from '../Actions/ComparisonList'
 
@@ -23,19 +22,19 @@ function Components() {
         {
         case "1": summary.innerHTML =  "Switch Statement #1,Switch Statement #1,Switch Statement #1,Switch Statement #1,Switch Statement #1,Switch Statement #1,Switch Statement #1,Switch Statement #1,Switch Statement #1";
         break;
-        case "2": summary.innerHTML =  "Switch Statement #2";
+        case "2": summary.innerHTML =  "Switch Statement #2,Switch Statement #2,Switch Statement #2,Switch Statement #2,Switch Statement #2";
         break;
-        case "3": summary.innerHTML =  "Switch Statement #3";
+        case "3": summary.innerHTML =  "Switch Statement #3,Switch Statement #3,Switch Statement #3,Switch Statement #3,Switch Statement #3,Switch Statement #3,Switch Statement #3,Switch Statement #3";
         break;
-        case "4": summary.innerHTML =  "Switch Statement #4";
+        case "4": summary.innerHTML =  "Switch Statement #4,Switch Statement #4,Switch Statement #4,Switch Statement #4";
         break;
-        case "5": summary.innerHTML =  "Switch Statement #5";
+        case "5": summary.innerHTML =  "Switch Statement #5,Switch Statement #5,Switch Statement #5,Switch Statement #5,Switch Statement #5,Switch Statement #5,Switch Statement #5,Switch Statement #5,Switch Statement #5";
         break;
-        case "6": summary.innerHTML =  "Switch Statement #6";
+        case "6": summary.innerHTML =  "Switch Statement #6,Switch Statement #6,Switch Statement #6,Switch Statement #6,Switch Statement #6";
         break;
-        case "7": summary.innerHTML =  "Switch Statement #7";
+        case "7": summary.innerHTML =  "Switch Statement #7,Switch Statement #7,Switch Statement #7,Switch Statement #7";
         break;
-        case "8": summary.innerHTML =  "Switch Statement #8";
+        case "8": summary.innerHTML =  "Switch Statement #8,Switch Statement #8,Switch Statement #8,Switch Statement #8,Switch Statement #8,Switch Statement #8";
         break;
 
 
@@ -83,7 +82,6 @@ function Components() {
           <button onClick={(e) => {ShowData(e, '4')}}><a href="#factsArea">Component Did UnMount</a></button>
           </center>
         </div>
-        {/* <center><div id="factsArea">Did this go to the center?</div></center> */}
         <div class="navigationBar">
           <center>
           <span class="comparedTop">React Hooks</span>
@@ -96,7 +94,10 @@ function Components() {
         </div>
     </div>
     </div>
-    <center><a href={"/"}><button>return home</button></a></center>
+    <footer>
+      <br/>
+      <center><a href={"/"}><button>return home</button></a></center>
+    </footer>
     </>
       </>
     )

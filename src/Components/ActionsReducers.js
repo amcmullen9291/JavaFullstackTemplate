@@ -32,6 +32,7 @@ export const NameReducer = (state=name, {type, payload}) => {
 <span><center>A Reducer returns a single value.<br/></center></span>
     </div>
     <footer>
+        <br/>
         <center><a href={"/"}><button>return home</button></a></center>
     </footer>
     </div>

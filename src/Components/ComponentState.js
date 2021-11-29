@@ -47,15 +47,12 @@ export default class ComponentState extends Component {
             <div id="statePageMainBackground">
         <div>
           <center><h1 id="welcome"><em>this</em>.setState</h1></center>
-          {/* <center>testing the router from the Component State page</center> */}
         </div>
         <div>
             <center>
                 <p id="statePageBorder">
     <button onClick = {this.DecreaseValue} className="stateButtons"> - </button>
-      {/* <button onClick={this.IncreaseValue}> + </button> */}
       <input className="statePageCounter" value={this.state.quantity} onChange={this.handleChange}/>
-      {/* <button onClick = {this.DecreaseValue}> - </button> */}
       <button onClick = {this.IncreaseValue} className="stateButtons"> + </button>
             </p>
       </center>

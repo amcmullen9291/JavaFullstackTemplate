@@ -29,11 +29,9 @@ export default function functionalComponents() {
 
 function headerCode(e){
   e.preventDefault();
-  Swal.fire("The Header's JSX",
+  Swal.fire("The Title's JSX",
   "const header = (center)(h1 id='welcome')Reuseable code(/h1)(/center)");
 }
-
-
 
   const infoBanner = (
     <>
@@ -71,7 +69,7 @@ function headerCode(e){
 
   function hOneCode(e){
     e.preventDefault();
-    Swal.fire("H1 Header Code","const header = (h1 id='headerText1')This h1 element is in the header.(/h1)(p id='headerText2')(but wouldn't it look nicer in the middle?)(/p)")
+    Swal.fire("The Header's JSX","const header = (h1 id='headerText1')This h1 element is in the header.(/h1)(p id='headerText2')(but wouldn't it look nicer in the middle?)(/p)")
 }
 
   const header = (

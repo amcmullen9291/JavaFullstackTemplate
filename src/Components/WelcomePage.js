@@ -1,6 +1,5 @@
 import React from 'react'
 
-// put a picture in the middle on the welcome page. onClick can be a popup
 function WelcomePage() {
   const copyright = "\u00a9";
   return (
