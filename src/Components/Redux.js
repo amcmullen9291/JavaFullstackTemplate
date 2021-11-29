@@ -16,11 +16,9 @@ class Redux extends Component {
     handleSubmit = event => {
 		event.preventDefault();
 		this.props.name(this.state);
-		console.log(this.state.name);
 		let name = this.state.name;
-		console.log(this.state.age)
 		let age = this.state.age;
-		Swal.fire("And now,", "Both variables, name:("+name+ ") and age:("+age +") are available to the entire application.");
+		Swal.fire("And now", "both variables, name:("+name+ ") and age:("+age +"), are available to the entire application.");
 	}; 
 
 	handleNameChange = event => {

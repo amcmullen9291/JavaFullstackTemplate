@@ -16,7 +16,7 @@ export const setUserName = (userName) => {
     }
 };
     `}</pre>
-<span><center>An Action is used to describe what is taking place.<br/></center></span>
+<span><center>An Action is used to describe what <i>action</i> is taking place.<br/></center></span>
 </div>
 <div id="reducerArea">
 <pre>{`
