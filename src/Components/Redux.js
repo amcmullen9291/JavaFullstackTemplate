@@ -34,17 +34,19 @@ class Redux extends Component {
 	render() {
 		return (
             <>
+            <div className="background">
         <div>
           <center><h1 id="welcome">Redux</h1></center>
         </div>
-
-        <span>To open up the console type "control+shift+J". </span>
-        <span>If you have added the devtool dependency You will be able to see how Redux stores component state.</span>
-        <span>locate the Redux tag. Select the State tab. Then, fill out the form.</span><br/><br/>
+        <center id="reduxPage">
+        <span>To open up the console type "control+shift+J". </span><br/>
+        <span>If you have added the redux-devtools dependency You will be able to see how Redux stores component state. </span>
+        <br/><span>Locate the Redux tag then, select the State tab. Now, fill out the form and watch.</span><br/><br/>
+        </center>
         <center>
             {/* @CSS */}
 			<div>
-				<form onSubmit={this.handleSubmit}> 
+				<form id="form" onSubmit={this.handleSubmit}> 
 					<label>Enter your Name</label>
 					<input id="formFieldsName"
 						type="text"
@@ -64,6 +66,7 @@ class Redux extends Component {
             <footer>
                 <center><a href={"/"}><button id="homeButton">return home</button></a></center>                 
             </footer>
+            </div>
             </>
 		);
 	}

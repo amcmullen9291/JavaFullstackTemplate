@@ -278,3 +278,8 @@ ul ol ul li{
 #formfieldsName{
   width: 60px
 }
+
+#form{
+  font-size: 2em;
+  color: #2512E7;
+}
