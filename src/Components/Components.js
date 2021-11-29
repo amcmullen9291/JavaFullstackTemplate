@@ -20,21 +20,21 @@ function Components() {
     summary.innerHTML = "";
     switch (attribute)
         {
-        case "1": summary.innerHTML =  "Switch Statement #1,Switch Statement #1,Switch Statement #1,Switch Statement #1,Switch Statement #1,Switch Statement #1,Switch Statement #1,Switch Statement #1,Switch Statement #1";
+        case "1": summary.innerHTML =  "In order to enable quick reacting and updating, you have access to certain built-in events in the React component's lifecycle called lifecycle methods. These methods control how the component reacts (or doesn't react) to changes in your app.";
         break;
-        case "2": summary.innerHTML =  "Switch Statement #2,Switch Statement #2,Switch Statement #2,Switch Statement #2,Switch Statement #2";
+        case "2": summary.innerHTML =  "In order to enable quick reacting and updating, you have access to certain built-in events in the React component's lifecycle called lifecycle methods. These methods control how the component reacts (or doesn't react) to changes in your app.";
         break;
-        case "3": summary.innerHTML =  "Switch Statement #3,Switch Statement #3,Switch Statement #3,Switch Statement #3,Switch Statement #3,Switch Statement #3,Switch Statement #3,Switch Statement #3";
+        case "3": summary.innerHTML =  "In order to enable quick reacting and updating, you have access to certain built-in events in the React component's lifecycle called lifecycle methods. These methods control how the component reacts (or doesn't react) to changes in your app.";
         break;
-        case "4": summary.innerHTML =  "Switch Statement #4,Switch Statement #4,Switch Statement #4,Switch Statement #4";
+        case "4": summary.innerHTML =  "In order to enable quick reacting and updating, you have access to certain built-in events in the React component's lifecycle called lifecycle methods. These methods control how the component reacts (or doesn't react) to changes in your app.";
         break;
-        case "5": summary.innerHTML =  "Switch Statement #5,Switch Statement #5,Switch Statement #5,Switch Statement #5,Switch Statement #5,Switch Statement #5,Switch Statement #5,Switch Statement #5,Switch Statement #5";
+        case "5": summary.innerHTML =  "In order to enable quick reacting and updating, you have access to certain built-in events in the React component's lifecycle called lifecycle methods. These methods control how the component reacts (or doesn't react) to changes in your app.";
         break;
-        case "6": summary.innerHTML =  "Switch Statement #6,Switch Statement #6,Switch Statement #6,Switch Statement #6,Switch Statement #6";
+        case "6": summary.innerHTML =  "In order to enable quick reacting and updating, you have access to certain built-in events in the React component's lifecycle called lifecycle methods. These methods control how the component reacts (or doesn't react) to changes in your app.";
         break;
-        case "7": summary.innerHTML =  "Switch Statement #7,Switch Statement #7,Switch Statement #7,Switch Statement #7";
+        case "7": summary.innerHTML =  "In order to enable quick reacting and updating, you have access to certain built-in events in the React component's lifecycle called lifecycle methods. These methods control how the component reacts (or doesn't react) to changes in your app.";
         break;
-        case "8": summary.innerHTML =  "Switch Statement #8,Switch Statement #8,Switch Statement #8,Switch Statement #8,Switch Statement #8,Switch Statement #8";
+        case "8": summary.innerHTML =  "In order to enable quick reacting and updating, you have access to certain built-in events in the React component's lifecycle called lifecycle methods. These methods control how the component reacts (or doesn't react) to changes in your app.";
         break;
 
 
