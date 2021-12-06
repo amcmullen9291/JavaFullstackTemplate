@@ -44,7 +44,7 @@ class Redux extends Component {
         <center id="reduxPage">
         <span>To open up the console type "control+shift+J". </span><br/>
         <span>If you have added the redux-devtools dependency You will be able to see how Redux stores component state. </span>
-        <br/><span>Locate the Redux tag then, select the State tab. Now, fill out the form and watch.</span><br/><br/>
+        <br/><span>Locate the Redux tab then, select the State tab. Now, fill out the form and watch.</span><br/><br/>
         </center>
         <center>
             {/* @CSS */}
